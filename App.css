@@ -1,0 +1,72 @@
+#root,html,body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+.app {
+height: 100%;
+background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://images.pexels.com/photos/1846271/pexels-photo-1846271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+background-size: cover;
+background-position: center;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+
+.card{
+background-color: white;
+width: 40%;
+height: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius:25px;
+padding: 2%;
+box-shadow: 8px 8px gray;
+position: relative;
+}
+
+.heading{
+display: flex;
+align-items: center;
+height: 582px;
+font-family: 'Spartan', sans-serif;
+}
+
+.button{
+position: relative;
+top: 0;
+right: 2px;
+text-decoration: none;
+height: 200px;
+width: 210px;
+background-color:#ffffff;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+border: 1px solid rgba(22,76,167,0,6);
+opacity: 1;
+cursor: pointer;
+text-transform: uppercase;
+outline: none;
+}
+
+.button span{
+	color: #164ca7;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.7px;
+}
+
+@media only screen and (max-width: 600px){
+	.card{
+		width: 80px;
+		height: 30%;
+	}
+}
